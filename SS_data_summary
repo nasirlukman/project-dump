@@ -7,7 +7,7 @@ pd.set_option('display.max_columns', None)
 
 
 #Read data
-data = pd.read_csv('soil_data_example.csv')
+data = pd.read_csv('your_data.csv')
 
 #Summary statistics
 grade = data.iloc[:,2:]
